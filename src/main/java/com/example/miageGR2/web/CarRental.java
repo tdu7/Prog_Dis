@@ -19,12 +19,13 @@ public class CarRental {
         cars.add(new Car("22BB33", 2000));
         cars.add(new Car("33CC44", 4000));
         cars.add(new Car("44DD55", 5000));
+        cars.add(new Car("55DD66", 6000));
     }
 
     @GetMapping("/cars")
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    public List<Car> listOfCars(){
+    public List<Car> listOfCars() {
         return cars;
     }
 }
