@@ -20,7 +20,7 @@ public class CarRental {
         cars.add(new Car("33CC44", 4000));
         cars.add(new Car("44DD55", 5000));
         cars.add(new Car("55DD66", 6001));
-        cars.add(new Car("66DD77", 6002));
+        cars.add(new Car("66DD77", 6003));
     }
 
     @GetMapping("/cars")
